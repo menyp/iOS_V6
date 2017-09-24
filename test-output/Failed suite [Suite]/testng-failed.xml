@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Sanity Tests(failed)(failed)">
+    <groups>
+      <run>
+        <include name="Sanity IOS1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Native.SanityIos">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="Grid_AdvancedColumns"/>
+          <include name="checkHomeScreen"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Native.SanityIos -->
+    </classes>
+  </test> <!-- Sanity Tests(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

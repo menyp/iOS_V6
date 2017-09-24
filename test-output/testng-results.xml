@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="574287" started-at="2017-09-19T09:16:19Z" finished-at="2017-09-19T09:25:54Z">
+    <groups>
+      <group name="Sanity IOS1">
+        <method signature="SanityIos.Grid_AdvancedColumns()[pri:0, instance:Native.SanityIos@76ed1b7c]" name="Grid_AdvancedColumns" class="Native.SanityIos"/>
+      </group> <!-- Sanity IOS1 -->
+    </groups>
+    <test name="Sanity Tests" duration-ms="574287" started-at="2017-09-19T09:16:19Z" finished-at="2017-09-19T09:25:54Z">
+      <class name="Native.SanityIos">
+        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:Native.SanityIos@76ed1b7c]" name="setupBeforeSuite" is-config="true" duration-ms="94689" started-at="2017-09-19T12:14:45Z" finished-at="2017-09-19T12:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41477a6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="checkHomeScreen()[pri:0, instance:Native.SanityIos@76ed1b7c]" name="checkHomeScreen" is-config="true" duration-ms="596" started-at="2017-09-19T12:16:19Z" finished-at="2017-09-19T12:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeScreen -->
+        <test-method status="PASS" signature="Grid_AdvancedColumns()[pri:0, instance:Native.SanityIos@76ed1b7c]" name="Grid_AdvancedColumns" duration-ms="573675" started-at="2017-09-19T12:16:20Z" description="Grid_AdvancedColumns" finished-at="2017-09-19T12:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grid_AdvancedColumns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Native.SanityIos@76ed1b7c]" name="tearDown" is-config="true" duration-ms="32810" started-at="2017-09-19T12:25:59Z" finished-at="2017-09-19T12:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Native.SanityIos -->
+    </test> <!-- Sanity Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
